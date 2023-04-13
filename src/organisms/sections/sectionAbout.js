@@ -16,7 +16,7 @@ const dataProjetos = [
     },
     {
         id: '02',
-        url: '/projetos/site-web-mf.png',
+        url: '/projetos/site-web-mf.jpeg',
         name: 'Site Web',
         description: 'Site desenvolvido para uma marcenaria local',
         type: 'Front + Back',
@@ -26,7 +26,7 @@ const dataProjetos = [
     },
     {
         id: '03',
-        url: '/projetos/site-web.png',
+        url: '/projetos/site-web.jpeg',
         name: 'Site Web',
         description: 'Site desenvolvido para uma marcenaria local',
         type: 'Front-end',
@@ -36,7 +36,7 @@ const dataProjetos = [
     },
     {
         id: '04',
-        url: '/projetos/gerador-senha.png',
+        url: '/projetos/gerador-senha.jpeg',
         name: 'Gerador senha',
         description: 'Aplicativo web para gerar senhas',
         type: 'Front-end',
