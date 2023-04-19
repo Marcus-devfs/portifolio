@@ -286,15 +286,12 @@ export const CarouselSlider = (props) => {
                   alignItems: 'center',
                   justifyContent: 'center',
                 }} key={item.id} >
-                  <Box sx={{ height: 200, alignItems: 'center', justifyContent: 'center', width: 200, display: 'flex', flexDirection: 'column', borderRadius: aroundBorder ? '100%' : 0, marginLeft: { xs: `20%`, xm: 1, md: 1, lg: 1 }}}>
-                    
+                  <Box sx={{ height: 200, alignItems: 'center', justifyContent: 'center', width: '100%', display: 'flex', flexDirection: 'column', borderRadius: aroundBorder ? '100%' : 0, marginLeft:`auto`}}>
                     <Box sx={{
-                      backgroundColor: '#fff',
+                      // backgroundColor: '#fff',
                       ...styles.imageCarouselLarge,
                       backgroundImage: `url('${item.url}')`,
                       mixBlendMode: 'multiply',
-                      borderRadius: '100%',
-                      // backgroundColor: Colors.darkBlue,
                       width: { xs: `100%`, xm: width ? width : `320px`, md: width ? width : `320px`, lg: width ? width : `320px` },
                       height: { xs: '220px', xm: height ? height : '300px', md: height ? height : '300px', lg: height ? height : '300px' },
                     }} />

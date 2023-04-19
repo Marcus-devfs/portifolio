@@ -23,7 +23,7 @@ export default function HomePage() {
                      height: '100%',
                      flex: 1,
                      gap: 1,
-                     padding: widthScreen ? '0px 0px 0px 250px' : { xs: '0px 0px 0px 23px', xm: '0px 0px 0px 120px', md: '0px 0px 0px 120px', lg: '0px 0px 0px 120px' }
+                     padding: widthScreen ? '0px 0px 0px 250px' : { xs: '0px 23px 0px 23px', xm: '0px 0px 0px 120px', md: '0px 0px 0px 120px', lg: '0px 0px 0px 120px' }
                   }}>
                      <Box sx={{
                         width: { xs: `100%`, xm: '60%', md: '60%', lg: '60%' },
@@ -40,7 +40,7 @@ export default function HomePage() {
                         <Text bold style={{ color: Colors.darkBlue, }}>(11) 96181-9664</Text>
                         <Text bold style={{ color: Colors.darkBlue, }}>marcusvf.silva@gmail.com</Text>
                      </Box>
-                     <Box sx={{ width: { xs: 350, xm: 400, md: 400, lg: 400 }, height: 100, backgroundColor: Colors.darkBlue, borderRadius: 2, padding: 1, marginTop: 2 }}>
+                     <Box sx={{ width: { xs: 'auto', xm: 400, md: 400, lg: 400 }, height: 100, backgroundColor: Colors.darkBlue, borderRadius: 2, padding: 1, marginTop: 2, }}>
                         <Link href={"https://github.com/Marcus-devfs?tab=repositories"} target='_blank'>
                            <Box sx={{ display: 'flex', alignItems: 'center', }}>
                               <Box sx={{ ...styles.icon, backgroundImage: `url('/icons/github_icon.svg')`, }} />
